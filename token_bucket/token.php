@@ -12,8 +12,8 @@ class Token {
 
     private $config = array(
         "host" => "127.0.0.1",
-        "port" => 9379,
-        "auth" => "caicairedis123456"
+        "port" => 6379,
+        "auth" => "" // 密码
     );
 
     public function __construct() {
